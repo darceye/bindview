@@ -1,0 +1,1 @@
+adb install ..\build\jsb-default\simulator\android\s24svn-debug.apk 

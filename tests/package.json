@@ -1,0 +1,20 @@
+{
+  "name": "tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tests.js",
+  "dependencies": {
+    "mocha": "^3.2.0",
+    "chai": "^3.0.0",
+    "rewire": "^2.0.0"
+
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC"
+}
