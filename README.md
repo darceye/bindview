@@ -97,7 +97,7 @@ Bind fatherNode with object person, then change the values of person properties,
           birthday: "1984-6-4",
           avatar: new cc.SpriteFrame()
       }, {
-          name: "企鹅",
+          name: "Penguin",
           birthday: "1999-3-1",
           avatar: new cc.SpriteFrame()
       }
@@ -107,4 +107,5 @@ Bind fatherNode with object person, then change the values of person properties,
 
 ## Contact me.
 
-QQ: 1329046779 
+QQ: 1329046779 (Say "From github" when adding me.)
+Mail: 1329046779@qq.com
