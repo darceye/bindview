@@ -4,9 +4,9 @@ Bindview uses javascript arrays and objects to bind with nodes, prefabs, labels 
 ## Try Demo
 
 1. Clone this project, use Cocos Creator to open and run it!
-
+    ```
     git clone https://github.com/darceye/bindview.git
-
+    ```
 2. Demo project assets structure
     ```
     assets
