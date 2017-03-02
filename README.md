@@ -1,6 +1,28 @@
 # bindview
 Bindview uses javascript arrays and objects to bind with nodes, prefabs, labels and sprites of Cocos Creator. 
 
+A javascript object could bind with a node. For example, A node named "fatherNode" in node tree is:
+
+```
+fatherNode
+|-name //a label
+|-birthday // another label
+|-avatar // a sprite
+```
+
+An object is:
+
+```
+// javascript object
+var person = {
+    name: "Jacques Yang",
+    birthday: "1984-6-4",
+    avatar: new cc.SpriteFrame()
+}
+```
+
+Bind fatherNode with object person, then change the values of person properties, the fatherNode will be updated automatically.
+
 ## Try Demo
 
 1. Clone this project, use Cocos Creator to open and run it!
@@ -28,7 +50,7 @@ Bindview uses javascript arrays and objects to bind with nodes, prefabs, labels 
       |-edit.js  // For editing on Demo scene.
       |-imgload.js // Load images from resources, and set SpriteFrame data. 
     ```
-    
+
 3. Run bindview scene in browser. Change name, birthday, avatar ID or array index. Then click "Set". The labels and sprites will changed immidiately. Try "Push()" or "Pop()" to insert new element or delete an element of the array. You can also try it in console.
 
 4. Now we look at the "Node Tree" panel, there are 3 nodes under Canvas. All of them have a view component:
