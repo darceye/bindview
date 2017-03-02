@@ -104,3 +104,7 @@ Bind fatherNode with object person, then change the values of person properties,
   ]
   ```
 10. It's done! Then if you want to change labels or sprites, just change the data!
+
+## Contact me.
+
+QQ: 1329046779 
