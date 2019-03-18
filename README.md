@@ -1,6 +1,10 @@
 # bindview
 Bindview uses javascript arrays and objects to bind with nodes, prefabs, labels and sprites of Cocos Creator. 
 
+## Caution! 警告
+This project is based on Cocos Creator V1.4.0 which was published at 2017-3-2. It was stopped updating.  
+项目基于2017-3-2发布的Cocos Creator V1.4.0版本，已停止更新。
+
 A javascript object could bind with a node. For example, A node named "fatherNode" in node tree is:
 
 ```
@@ -105,7 +109,3 @@ Bind fatherNode with object person, then change the values of person properties,
   ```
 10. It's done! Then if you want to change labels or sprites, just change the data!
 
-## Contact me.
-
-QQ: 1329046779 (Say "From github" when adding me.)
-Mail: 1329046779@qq.com
